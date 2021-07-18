@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import 'bootstrap/dist/css/bootstrap.css'
 import App from './components/App'
 import configureStore from './store/configureStore'
-import * as serviceWorker from './serviceWorker.js'
+//import * as serviceWorker from './serviceWorker.js'
 
 ReactDOM.render(
   <Provider store={configureStore()}>
@@ -13,4 +13,3 @@ ReactDOM.render(
   document.getElementById('root')
 )
 
-serviceWorker.unregister()
