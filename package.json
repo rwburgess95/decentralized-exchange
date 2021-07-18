@@ -6,7 +6,7 @@
   "private": true,
   "homepage": ".",
   "engines": {
-    "node": "8.11.1"
+    "node": "10.24.1"
   },
   "dependencies": {
     "@metamask/legacy-web3": "^2.0.0",
